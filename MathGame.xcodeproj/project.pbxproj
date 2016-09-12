@@ -13,6 +13,8 @@
 		28F504511D87341600B0AC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F5044F1D87341600B0AC16 /* Main.storyboard */; };
 		28F504531D87341600B0AC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F504521D87341600B0AC16 /* Assets.xcassets */; };
 		28F504561D87341600B0AC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F504541D87341600B0AC16 /* LaunchScreen.storyboard */; };
+		28F5045F1D87373900B0AC16 /* MathGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F5045E1D87373900B0AC16 /* MathGame.m */; };
+		28F504621D87374F00B0AC16 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F504611D87374F00B0AC16 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		28F504521D87341600B0AC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F504551D87341600B0AC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28F504571D87341600B0AC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F5045D1D87373900B0AC16 /* MathGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathGame.h; sourceTree = "<group>"; };
+		28F5045E1D87373900B0AC16 /* MathGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathGame.m; sourceTree = "<group>"; };
+		28F504601D87374F00B0AC16 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		28F504611D87374F00B0AC16 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		28F504451D87341600B0AC16 /* MathGame */ = {
 			isa = PBXGroup;
 			children = (
+				28F5045D1D87373900B0AC16 /* MathGame.h */,
+				28F5045E1D87373900B0AC16 /* MathGame.m */,
+				28F504601D87374F00B0AC16 /* Player.h */,
+				28F504611D87374F00B0AC16 /* Player.m */,
 				28F504491D87341600B0AC16 /* AppDelegate.h */,
 				28F5044A1D87341600B0AC16 /* AppDelegate.m */,
 				28F5044C1D87341600B0AC16 /* ViewController.h */,
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F5044E1D87341600B0AC16 /* ViewController.m in Sources */,
+				28F5045F1D87373900B0AC16 /* MathGame.m in Sources */,
 				28F5044B1D87341600B0AC16 /* AppDelegate.m in Sources */,
 				28F504481D87341600B0AC16 /* main.m in Sources */,
+				28F504621D87374F00B0AC16 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
